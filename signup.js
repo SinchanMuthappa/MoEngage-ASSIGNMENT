@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Store user credentials (Note: This is for demonstration purposes only. Do not store passwords in localStorage in real applications)
             localStorage.setItem(email, JSON.stringify({ username: username, password: password }));
             alert('Signup successful!');
-            window.location.href = 'index.html';
+            window.location.href = 'MoEngage Assignment/index.html';
         }
     });
 });
