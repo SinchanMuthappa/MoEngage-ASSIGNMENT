@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(response => response.json())
         .then(data => {
             alert('Review submitted successfully!');
-            window.location.href = `brewery.html?id=${breweryId}`;
+            window.location.href = `MoEngage- ASSIGNMENT/brewery.html?id=${breweryId}`;
         })
         .catch(error => {
             alert(`Error: ${error.message}`);
