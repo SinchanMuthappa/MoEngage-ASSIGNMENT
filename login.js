@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const user = JSON.parse(storedUser);
             if (password === user.password) {
                 alert('Login successful!');
-                window.location.href = 'home.html';
+                window.location.href = 'MoEngage Assignment/home.html';
             } else {
                 alert('Invalid email or password!');
             }
