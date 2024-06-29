@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
             breweryAddress.textContent = `Address: ${data.street}, ${data.city}, ${data.state}`;
             breweryPhone.textContent = `Phone: ${data.phone}`;
             breweryWebsite.innerHTML = `Website: <a href="${data.website_url}" target="_blank">${data.website_url}</a>`;
-            reviewLink.href = `review.html?id=${breweryId}`;
+            reviewLink.href = `MoEngage- ASSIGNMENT/review.html?id=${breweryId}`;
 
             // Load reviews from backend
             fetch(`http://localhost:3000/reviews/${breweryId}`)
