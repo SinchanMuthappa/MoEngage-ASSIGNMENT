@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         <p><strong>Phone:</strong> ${brewery.phone}</p>
                         <p><strong>Website:</strong> <a href="${brewery.website_url}" target="_blank">${brewery.website_url}</a></p>
                         <p><strong>Rating:</strong> N/A</p> 
-                        <a href="brewery.html?id=${brewery.id}">View Details</a>
+                        <a href="MoEngage Assignment brewery.html?id=${brewery.id}">View Details</a>
                     `;
                     resultsDiv.appendChild(breweryDiv);
                 });
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         <p><strong>Phone:</strong> ${brewery.phone}</p>
                         <p><strong>Website:</strong> <a href="${brewery.website_url}" target="_blank">${brewery.website_url}</a></p>
                         <p><strong>Rating:</strong> N/A</p> 
-                        <a href="brewery.html?id=${brewery.id}">View Details</a>
+                        <a href="MoEngage Assignment brewery.html?id=${brewery.id}">View Details</a>
                     `;
                     resultsDiv.appendChild(breweryDiv);
                 });
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         <p><strong>Phone:</strong> ${brewery.phone}</p>
                         <p><strong>Website:</strong> <a href="${brewery.website_url}" target="_blank">${brewery.website_url}</a></p>
                         <p><strong>Rating:</strong> N/A</p> 
-                        <a href="brewery.html?id=${brewery.id}">View Details</a>
+                        <a href="MoEngage Assignment brewery.html?id=${brewery.id}">View Details</a>
                     `;
                     resultsDiv.appendChild(breweryDiv);
                 });
